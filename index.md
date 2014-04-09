@@ -2,6 +2,7 @@
 title: Creating Lambda Oinks: A Scientific Blogging Platform That Just Works
 date: 2014-04-05
 author: Oinkina
+published: true
 ---
 
 Mostly, I just wanted to get my hands dirty with a project. 
@@ -329,51 +330,4 @@ If we don't include "published" in the metadata of a post, it will not be includ
 
 And that's the entirety of the Haskell file.
 
-Styling
------------
-
-Bootstrap adds an ease of elegance with the nav bar and gridding system, and I style the posts to be reminiscent of beautiful LaTeX PDFs. 
-
-### Bootstrap
-
-
-Workflow
---------
-
-### Git submodules
-
-### New post and update scripts
-
-
-Outline
---------
-
-* Hakyll
-    * Posts for folders
-    * Automatic Updates (./update.sh)
-* Bootstrap
-    * Nav bar
-    * Sticky footer
-    * Two columns
-* Styling
-    * Latex 
-        * Fonts
-        * Headers
-            * bolded
-            * size
-            * space between
-    * Feynman-Lecture style TOC
-    * Mobile-friendly
-        * Justifies when tablet sized or larger
-        * Footer is tall enough for second line
-    * Images
-* Support for good blog stuff
-    * Support for Code (Highlight.js)
-    * Support for Equations (MathJax)
-    * 3D Math Graphics (MathBox.js)
-    * Comments (Disqus)
-    * Floating Footnotes (Footnotes.js)
-    * Teasers
-    * Tags
-    * TOC
-    * Google Analytics
+[*More to come later...*]
