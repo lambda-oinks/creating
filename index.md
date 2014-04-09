@@ -228,7 +228,7 @@ Instead of using the archive template, we used the index template, but we also d
 
 Contexts give or affect fields that we can use in templates, such as ```$title$``` as we saw in the archive and index contexts. We can compose contexts: defaultContext, a composed context included in the Hakyll library, gives us ```$body$``` and ```$url$```.  
 
-Our posts are each saved as ```index.md``` in their own git repo that's a submodule within the posts submodule in the project. That way, we don't have to specify a further layer to the path within the URL; the default page is the index page. However, we get an ugly URL this way: "http://blog/posts/date-postname/index.html." We can make a context to affect the $url$ field:
+Our posts are each saved as ```index.md``` in their own git repo that's a submodule within the posts submodule in the project. That way, we don't have to specify a further layer to the path within the URL; the default page is the index page. However, we get an ugly URL this way: "http://blog/posts/date-postname/index.html." We can make a context to affect the ```$url$``` field:
 
 ```haskell
 -- Gets rid of "/index.html" from posts
