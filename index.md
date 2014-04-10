@@ -277,7 +277,8 @@ mathCtx = field "mathjax" $ \item -> do
 #### MathBox
 
 Additionally, I found an exciting library called [MathBox](https://github.com/unconed/MathBox.js/) that allows us to embed 3D math diagrams. Here's one of the demos, of a surface and plane intersecting. You can rotate it.
-<iframe class="mathbox" src="/js/MathBox.js/examples/Intersections.html" width=100% height=500px seamless="seamless"></iframe>
+
+<iframe class="mathbox" src="/js/MathBox.js/examples/Intersections.html" width=100% height=500px></iframe>
 
 This doesn't require any special additions to our Haskell file. We simply clone it and save as ```js/MathBox.js/```. Then we can insert diagrams like the one above with the following code:
 
