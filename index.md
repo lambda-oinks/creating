@@ -3,6 +3,7 @@ title: Creating Lambda Oinks: A Scientific Blogging Platform That Just Works
 date: 2014-04-05
 author: Oinkina
 published: true
+tags: project, haskell, programming
 ---
 
 Mostly, I just wanted to get my hands dirty with a project. 
